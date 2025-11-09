@@ -1,4 +1,4 @@
-let url = '//universities.hipolabs.com/search?country='
+let url = 'https://universities.hipolabs.com/search?country='
 let country = ''
 const tableEl = document.getElementById('table-body')
 
@@ -12,7 +12,7 @@ saEl.addEventListener('click', async () => {
     url += 'Saudi Arabia'
     const response = await fetch(url)
     const data = await response.json()
-    url = '//universities.hipolabs.com/search?country='
+    url = 'https://universities.hipolabs.com/search?country='
     loopElement(tableEl, data)
 })
 
@@ -24,7 +24,7 @@ baEl.addEventListener('click', async () => {
     url += 'Bahrain'
     const response = await fetch(url)
     const data = await response.json()
-    url = '//universities.hipolabs.com/search?country='
+    url = 'https://universities.hipolabs.com/search?country='
     loopElement(tableEl, data)
 })
 
@@ -36,7 +36,7 @@ maEl.addEventListener('click', async () => {
     url += 'Malaysia'
     const response = await fetch(url)
     const data = await response.json()
-    url = '//universities.hipolabs.com/search?country='
+    url = 'https://universities.hipolabs.com/search?country='
     loopElement(tableEl, data)
 })
 
@@ -63,7 +63,7 @@ submitEl.addEventListener('click', () => {
             console.error("Fetch Error:", err);
         })
 
-    url = '//universities.hipolabs.com/search?country='
+    url = 'https://universities.hipolabs.com/search?country='
 })
 
 
