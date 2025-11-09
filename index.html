@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment2 -CPIT405</title>
+</head>
+
+<body>
+    <h1>Fetch API to Get Universities by Country </h1>
+    <div id="buttons-container">
+        <button id="sa">Fetch (Saudi Arabia Country)</button>
+        <button id="ba">Fetch (Bahrain Country)</button>
+        <button id="ma">Fetch (Malaysia Country)</button>
+    </div>
+
+    <br><br>
+    <hr>
+    <h2>Or Write Country you want to search</h2>
+    <form method="GET" action="#" class="srch-btns">
+        <input type="search" placeholder="Search" id="srch">
+        <input type="submit" name="ctr" id="ctr" value="send">
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>University Name</th>
+                <th>Country</th>
+                <th>Domain</th>
+            </tr>
+
+        </thead>
+
+        <tbody id="table-body">
+
+        </tbody>
+
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

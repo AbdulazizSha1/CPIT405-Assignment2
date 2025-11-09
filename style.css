@@ -1,0 +1,70 @@
+table{
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+    
+    
+}
+
+table thead{
+    background-color: #5e6a72;
+    color: white;
+
+}
+
+table tr:nth-child(even){
+    background-color: #a5b8c5;
+}
+
+table thead:hover{
+    background-color: #11213a;
+    color:white;
+}
+
+tr,td{
+    padding: 20px;
+}
+
+h1,h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#buttons-container{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+button{
+    padding: 10px 25px;
+    background-color: #11213a;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.srch-btns{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#srch{
+    border: 2px solid #11213a;
+    padding: 5px;
+    border-radius: 3px;
+    width: 250px
+}
+
+#srch:focus{
+    background-color: azure;
+}
+
+#ctr{
+    padding: 5px;
+    background-color: #a5b8c5;
+    border-radius: 5px;
+    width:80px
+}
